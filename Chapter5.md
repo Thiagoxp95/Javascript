@@ -1,30 +1,30 @@
-# JavaScript: Client-Side Scripting
+# **JavaScript: Client-Side Scripting**
 
-## What is Javascript?
+## **What is Javascript?**
 
 * JS runs inside the browser
 * JS is dynamically typed 
 * JS is OOP and almost everything is an object
 
-### Client-Side Scripting
+### **Client-Side Scripting**
 
 1. client -> GET /vacation.html
 2. server -> vacation.html
 3. client -> execute any JS if required
 4. client -> display to the browser
 
-### PROS of Client-Side Scripting
+### **PROS of Client-Side Scripting**
 * reduce the load on the server
 * browser can respond more quickly than making a new request to the server
 * JS can interact with the HTML element in a way that a server cannot, creating an user experience more like desktop software than simple HTML ever could. 
 
-### CONS of Client-Side Scripting
+### **CONS of Client-Side Scripting**
 
 * No garantee that the client has JS enabled    
 * The idiosyncrasies between various browsers and operating systems make it difficult to test for all potential client configurations. What works in one browser, may generate an error in another.
 * JavaScript-heavy web applications can be complicated to debug and maintain. 
 
-### HTTP request-response loop
+### **HTTP request-response loop**
 
 1. client: GET /form.php
 2. server: returns form.php
@@ -43,4 +43,24 @@
 > 8. ...renders the just-received HTML in the browser window. 
 
 
+
+### **JavaScript in Modern Times**
+* JavaScript became a much more important part of web dev in the mid 2000s with AJAX.
+* AJAX = Acronym & General Term
+    * Asynchronous JavaScript And XML.
+    * The most inmportant feature of AJAX sites is the asynchronous data requests. 
+
+
+### **Asynchronous Data Request**
+
+1. Request
+2. Response
+3. Browser blanks and renders the HTML received
+4. User clicks update buton on form
+5. Via JS, browser makes asynchronous request for data
+6. Server respond a XML or JSON data 
+7. JS updates the form
+
+
+### **Frameworks**
 
