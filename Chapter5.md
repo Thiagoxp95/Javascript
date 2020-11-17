@@ -140,3 +140,58 @@ for (var i=0 ; i<10 ; i++){
 
 ## **Functions**
 
+```Javascript
+function power(x,y){
+    var pow=1;
+    for (var i=o ; i<y ; i++){
+        pow = pow*x;
+    }
+    return pow;
+}
+
+// and its called as 
+
+power(2,4);
+```
+## **Alert** 
+
+The alert function shoes a pop-up on the browser
+
+```javascript
+alert("Good Morning!");
+```
+however, for debug, console log is a much better tool 
+
+```javascript
+console.log("Passed here");
+```
+
+## **Error Handling**
+
+* When the browser’s JavaScript engine encounters an error, it will throw an exception. 
+* These exceptions interrupt the regular, sequential execution of the program and can stop the JavaScript engine altogether. 
+* However, you can optionally catch these errors preventing disruption of the program using the **try–catch** block
+
+```javascript
+try {
+    nonexistentfunction("hello");
+}
+catch(err){
+    alert("An exemption was caught: " + err);
+}
+```
+
+* Custom error handling:
+```javascript
+try {
+    var x = -1;
+    if (x<0){
+        throw "smallerThan0Error";
+    }
+    catch(err){
+        alert(err + "was thrown");
+    }
+}
+```
+
+
