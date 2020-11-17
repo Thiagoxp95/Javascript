@@ -62,5 +62,20 @@
 7. JS updates the form
 
 
-### **Frameworks**
+### **Layers**
+
+* Presentation layer = Classes focused on the user interface.
+* Business layer = Classes that model real-world entities, such as customers, products and sales
+* Data layer = Classes that handle the interaction with the data sources
+<br>
+
+### **JavaScript Overview** ###
+
+* Everything type sensitive. 
+* Scope of variables are all global.
+* === operator checks for equality in value and type.
+* ```Null``` and ```undefined``` are different states for a variable
+
+
+
 
