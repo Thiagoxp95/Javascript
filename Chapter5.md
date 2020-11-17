@@ -75,7 +75,68 @@
 * Scope of variables are all global.
 * === operator checks for equality in value and type.
 * ```Null``` and ```undefined``` are different states for a variable
+* Semicolons are not required but encouraged 
+* No integer type, only float point numbers
 
 
+## **Variables**
 
+* Dinamically typed
+* ```var``` is the keyword
+* Assignment can happen can happen at declaration time by appending the value to the declaration, or at runtime with a simple right-to-left assingment 
+
+#### Example ####
+
+```JavaScript
+var x ;   // a variable x is defined 
+var y = 0;  // y is defined and initialized with 0 
+y = 4;     // y is assigned the value of 4.
+
+/*conditional assignment*/
+
+x = (y==4) ? "y is 4" : "y is not 4";
+
+```
+
+## **Logical Operators**
+
+```Javascript
+//and
+&& 
+// or
+||
+// not 
+!
+```
+
+## **Conditionals**
+
+```Javascript 
+var hourOfTheDay; 
+var greeting;
+
+if (hourOfTheDay > 4 && hourOfDay < 12){
+    greeting = "Good Morning";
+}
+
+```
+
+
+## **Loops**
+
+```Javascript
+var i=0; // initialize the Loop Control Variable
+
+while(i<10){//test the control variable
+    i++; //increment control variable
+}
+```
+
+```Javascript
+for (var i=0 ; i<10 ; i++){
+    //do someting here
+}
+```
+
+## **Functions**
 
